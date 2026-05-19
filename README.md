@@ -26,7 +26,7 @@ Docker
 Laravel Fortify
 
 ##ER図
-![ER図](.src/public/images/readme/er.png)
+![ER図](./src/public/images/readme/er.png)
 ##機能一覧
 一般ユーザー
 ログイン機能
