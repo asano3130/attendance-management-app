@@ -14,7 +14,7 @@ git clone https://github.com/asano3130/attendance-management-app.git
 3.Dockerコンテナ作成
 docker-compose up -d --build
 
-Laravel環境構築
+##Laravel環境構築
 1.PHPコンテナへ入る
 docker-compose exec php bash
 2.composer install
@@ -28,14 +28,16 @@ php artisan migrate
 6.シーディング実行
 php artisan db:seed
 
-使用技術
+##使用技術
 PHP 8.1
 Laravel 8.x
 MySQL 8.0
 Docker
 Laravel Fortify
 
-機能一覧
+##ER図
+![ER図](public/images/readme/kintaikanri.drawio.png)
+##機能一覧
 一般ユーザー
 ログイン機能
 ログアウト機能
@@ -105,7 +107,7 @@ CSV出力機能
 		created_at	timestamp				
 		updated_at	timestamp				
 
-テストアカウント
+##テストアカウント
 一般ユーザー
 名前	メールアドレス	パスワード
 山田太郎	yamada@example.com	password
@@ -114,6 +116,6 @@ CSV出力機能
 メールアドレス	パスワード
 admin@example.com	password
 
-URL
+##URL
 開発環境：http://localhost:81/
 phpMyAdmin：http://localhost:8080/
