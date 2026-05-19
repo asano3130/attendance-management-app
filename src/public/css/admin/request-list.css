@@ -1,0 +1,68 @@
+body {
+    background: #f1f1f1;
+}
+
+.request-list {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.request-list__title {
+    font-size: 32px;
+    font-weight: bold;
+    border-left: 8px solid #000;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.request-list__tab {
+    display: flex;
+    gap: 50px;
+
+    border-bottom: 1px solid #000;
+
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+
+.request-list__tab a {
+    text-decoration: none;
+    color: #666;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.request-list__tab a.active {
+    color: #000;
+}
+
+.request-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.request-table th,
+.request-table td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.request-table th {
+    color: #666;
+    font-size: 18px;
+}
+
+.request-table td {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.request-table a {
+    text-decoration: none;
+    color: #000;
+}

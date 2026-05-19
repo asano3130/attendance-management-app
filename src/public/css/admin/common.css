@@ -1,0 +1,67 @@
+/* =========================
+   管理者ヘッダー
+========================= */
+
+.admin-header {
+    background: #000;
+    width: 100%;
+}
+
+.admin-header__inner {
+
+    width: 95%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 0;
+}
+
+/* ロゴ */
+.admin-header__logo img {
+    width: 320px;
+    max-width: 100%;
+}
+
+/* メニュー */
+.admin-header__nav {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    flex-wrap: nowrap;
+}
+
+/* メニュー文字 */
+.admin-header__nav a {
+
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    white-space: nowrap;
+}
+
+.admin-header__nav form {
+    margin: 0;
+}
+
+.admin-header__nav button {
+
+    background: transparent;
+    border: none;
+    color: #fff;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    white-space: nowrap;
+}
+

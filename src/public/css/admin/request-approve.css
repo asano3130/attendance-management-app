@@ -1,0 +1,88 @@
+body {
+    background: #f1f1f1;
+}
+
+.approve {
+    width: 70%;
+    margin: 60px auto;
+}
+
+.approve__title {
+    font-size: 32px;
+    font-weight: bold;
+    border-left: 8px solid #000;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.approve__content {
+    background: #fff;
+    border-radius: 10px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.approve-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.approve-table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.approve-table th {
+    width: 30%;
+    padding: 35px;
+    text-align: left;
+
+    color: #666;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.approve-table td {
+    width: 70%;
+    padding: 35px;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.approve-button {
+    margin: 40px;
+    margin-left: auto;
+    display: block;
+
+    width: 140px;
+    height: 55px;
+
+    background: #000;
+    color: #fff;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.approved-button {
+    margin: 40px;
+    margin-left: auto;
+    display: block;
+
+    width: 140px;
+    height: 55px;
+
+    background: #888;
+    color: #fff;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 24px;
+    font-weight: bold;
+}

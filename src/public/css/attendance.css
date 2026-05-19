@@ -1,0 +1,52 @@
+.attendance {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.status {
+    display: inline-block;
+    background: #ddd;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.date {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.time {
+    font-size: 60px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.gray {
+    background: #ccc;
+    color: #000;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 18px;
+}
